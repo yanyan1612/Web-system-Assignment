@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <div class="container">
+    <head>
+        <title>Assignment</title>
+        <link rel="stylesheet" href="websystems.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home page</a><br>
+            <a href="past.html">My Past</a><br>
+            <a href="future.html">My future</a><br>
+            <a href="comments.html">Comments</a><br>
+        </nav>
+        <h1>MY FUTURE</h1>
+        <h3>About me</h3>
+        <p>Regarding the future, I haven't yet made a clear career plan for myself. I hope to find a job related to computers in Australia. Whether I stay in Australia or return to work in China later, I believe it will be of great help to me. Although I know that this will be a big challenge for my English skills and professional knowledge, I will still do my best...</p>
+        	<footer>
+
+            <div class="footer-content">
+              <p>&copy; 2026  Name - UTS </p>
+              <p>31268 Web Systems</p>
+
+              <div class="footer-links">
+                <a href="index.html">Home page</a> |
+                <a href="past.html">My Past</a> |
+                <a href="future.html">My future</a> |
+                <a href="comments.html">Comments</a> 
+            </div>
+              </div>
+        </footer>	
+    </body>
+    </div>
+</html>
