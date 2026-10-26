@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<div class="container">
+    <head>
+        <title>Assignment</title>
+        <link rel="stylesheet" href="websystems.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home page</a><br>
+            <a href="past.html">My Past</a><br>
+            <a href="future.html">My future</a><br>
+            <a href="comments.html">Comments</a><br>
+        </nav>
+        <h1>COMMENTS</h1>
+		<h3>Overall Structure</h3>
+		<p>My website consists of four pages respectively are "index.html"/"past.html"/"future.html"/"comments.html". Users can click on the four options in the navigation bar or the four options at the footer to switch to the corresponding page.</p>
+		<h3>Internal Structure </h3>
+		<p>In terms of structure, each page remains consistent. The navigation bar is located at the top of the page, followed by the title of this page, then the main content. At the bottom of each page, there is a footer.</p>
+		<h3>Styles Used</h3>
+		<p>This website uses a range of CSS styles to control layout, text, images and overall appearance. <b>Flexbox</b> is used in the navigation bar to arrange links horizontally and centre them on the page. <b>Text styles</b> are applied to headings and paragraphs, including font size, colour and alignment.  <b>Background colours and borders </b> used to separate different sections of the page, such as content areas and the footer. 
+<b>Rounded corners </b> applied to elements like content boxes and images to improve visual appearance. 
+<b>Tables </b> styled with borders and alternating row colours to improve readability. </p>
+         <p>Below is a simple table that illustrates some of the styles</p>
+            <table>
+				<thead>
+					<tr>
+						<th>Selector</th>
+						<th>Type of selector</th>
+						<th>What it does</th>
+						<th>Where it is used</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>nav</td>
+						<td>Element selector</td>
+						<td>Creates a navigation bar using flexbox, centres the menu items and adds spacing and background colour</td>
+						<td>All pages </td>
+					</tr>
+					<tr>
+						<td>h1</td>
+						<td>Element selector</td>
+						<td>Styles the main heading by centring the text, adjusting font size, colour and letter spacing</td>
+						<td>Page titles on all pages</td>
+					</tr>
+					<tr>
+						<td>div.newsitem</td>
+						<td>Class selector</td>
+						<td>Creates a styled content box with background colour, border, padding and rounded corners </td>
+						<td>Content sections</td>
+					</tr>
+					<tr>
+						<td>img</td>
+						<td>Element selector</td>
+						<td>Makes images responsive, centres them and adds rounded corners for better visual appearance</td>
+						<td>All pages with images</td>
+					</tr>
+				</tbody>
+			</table>
+		<h3>Graphic Design Aspects</h3>
+		<p>For this website, I adopted a simple and gray-white style to enhance the visual appeal. Regarding the layout of the navigation bar, I referred to some popular web page designs online and finally decided to place four buttons at the top to switch pages. Below the buttons, the name of the current page is displayed. I also widened the spacing between the letters of the name to make it more aesthetically pleasing. For the footer, I used a relatively standard design and kept the color consistent with the website.</p>
+		<h3>About "alt" tag</h3>
+		<p>The alt attribute is used in all images on this website to provide a text description of the image content. 
+This ensures that users who cannot see the images can still understand what the image represents.</p>
+        <div class="newsitem"> img src="picture2.jpg" alt="picture of myself" </div>
+        <h3>About the website works without css</h3>
+		<P>When the website lacks CSS, it can still display text and images normally, but it will lack page layout, color adjustments, and image adjustments. However, the functionality of the page will not be affected.</P>
+        	
+        	<footer>
+
+            <div class="footer-content">
+              <p>&copy; 2026  Name - UTS </p>
+              <p>31268 Web Systems</p>
+
+              <div class="footer-links">
+                <a href="index.html">Home page</a> |
+                <a href="past.html">My Past</a> |
+                <a href="future.html">My future</a> |
+                <a href="comments.html">Comments</a> 
+            </div>
+              </div>
+        </footer>	
+    </body>
+	</div>
+</html>
